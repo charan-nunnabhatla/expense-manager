@@ -6,8 +6,8 @@ class BottomSheetState extends StatelessWidget {
 
   final List<bool> isSelected = [true, false];
   final formKey = GlobalKey<FormState>();
-  String creditName = '';
-  int creditAmount = 0;
+  final String creditName = '';
+  final int creditAmount = 0;
 
   @override
   Widget build(BuildContext context) {
